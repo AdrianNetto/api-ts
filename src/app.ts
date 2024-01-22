@@ -1,15 +1,22 @@
+require("dotenv").config;
+
 import express from "express";
 import config from "config";
+import router from "./router";
+import db from "../config/db";
 
 const app = express();
 
-const port = config.get<number>("port")
+const port = config.get<number>("port");
 
 const url = `http://localhost:${port}`;
 
-//json middleware
 app.use(express.json());
 
+app.use("/api", router);
+
 app.listen(3000, async () => {
-  console.log(`🚀 application running on url ${url} 🚀`);
+  await db();
+
+  console.log(`🚀 Application Running on URL: ${url} 🚀`);
 });
