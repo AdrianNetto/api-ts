@@ -41,8 +41,26 @@ export async function deleteMovie(req: Request, res: Response) {
     const id = req.params.id;
     const movie = await MovieModel.findByIdAndDelete(id);
     return res.status(200).json({
-      msg: "Movie deleted!"
+      msg: "Movie deleted!",
     });
+  } catch (e: any) {
+    Logger.error(`System error: ${e.message}`);
+  }
+}
+
+export async function updateMovie(req: Request, res: Response) {
+  try {
+    const id = req.params.id;
+    const data = req.body;
+    const movie = await MovieModel.findById(id);
+    if (!movie) {
+      return res.status(404).json({ error: "Movie not found" });
+    }
+
+    await MovieModel.updateOne({ _id: id }, data);
+
+    res.status(200).send(data)
+
   } catch (e: any) {
     Logger.error(`System error: ${e.message}`);
   }

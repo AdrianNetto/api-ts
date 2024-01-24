@@ -317,3 +317,39 @@
 2024-01-24 13:48:19:4819 - [32minfo[39m: [32mConnected to DB[39m
 2024-01-24 13:48:19:4819 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
 2024-01-24 13:52:41:5241 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "asdasd" (type string) at path "_id" for model "Movie"[39m
+2024-01-24 15:14:23:1423 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 15:14:23:1423 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:06:11:611 - [31merror[39m: [31mUnable to connect to DB[39m
+2024-01-24 19:08:16:816 - [31merror[39m: [31mUnable to connect to DB[39m
+2024-01-24 19:11:23:1123 - [31merror[39m: [31mUnable to connect to DB[39m
+2024-01-24 19:16:16:1616 - [31merror[39m: [31mUnable to connect to DB[39m
+2024-01-24 19:20:13:2013 - [31merror[39m: [31mSystem error: Operation `movies.find()` buffering timed out after 10000ms[39m
+2024-01-24 19:20:28:2028 - [31merror[39m: [31mUnable to connect to DB[39m
+2024-01-24 19:23:01:231 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:23:01:231 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:27:26:2726 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:27:26:2726 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:27:42:2742 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:27:42:2742 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:28:02:282 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:28:02:282 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:28:39:2839 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:28:39:2839 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:28:43:2843 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:28:43:2843 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:29:55:2955 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:29:55:2955 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:29:56:2956 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:29:56:2956 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:29:58:2958 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:29:58:2958 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:30:36:3036 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:30:36:3036 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:31:50:3150 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:31:50:3150 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:32:53:3253 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:32:53:3253 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:33:23:3323 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:33:23:3323 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
+2024-01-24 19:35:49:3549 - [32minfo[39m: [32mConnected to DB[39m
+2024-01-24 19:35:49:3549 - [32minfo[39m: [32m🚀 Application Running on URL: http://localhost:3000 🚀[39m
