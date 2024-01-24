@@ -11,10 +11,13 @@ export const movieCreateValidator = () => {
       .isNumeric()
       .withMessage("The rating needs to be a number")
       .custom((value: number) => {
-        if (value < 0 || value > 10) {
+        if (value < 0 || value > 5) {
           throw new Error("The rating needs to be between 0 and 10");
         }
         return true;
       }),
+    body("description").isString().withMessage("Description is mandaroty"),
+    body("director").isString().withMessage("Director is mandaroty"),
+    body("poster").isURL().withMessage("Image needs to be a URL."),
   ];
 };

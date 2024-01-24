@@ -5,3 +5,12 @@
 2024-01-24 10:30:53:3053 - [31merror[39m: [31mUnable to connect to DB[39m
 2024-01-24 10:32:45:3245 - [31merror[39m: [31mUnable to connect to DB[39m
 2024-01-24 10:33:01:331 - [31merror[39m: [31mUnable to connect to DB[39m
+2024-01-24 12:00:40:040 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "{ id: '65b121bce5fa058e376dd43e' }" (type Object) at path "_id" for model "Movie"[39m
+2024-01-24 12:00:59:059 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "{ id: '65b121bce5fa058e376dd43e' }" (type Object) at path "_id" for model "Movie"[39m
+2024-01-24 12:01:29:129 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "{ id: { id: '65b121bce5fa058e376dd43e' } }" (type Object) at path "_id" for model "Movie"[39m
+2024-01-24 12:01:43:143 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "{ id: { id: '65b121bce5fa058e376dd43e' } }" (type Object) at path "_id" for model "Movie"[39m
+2024-01-24 12:48:30:4830 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "{ id: { id: '65b121bce5fa058e376dd43e' } }" (type Object) at path "_id" for model "Movie"[39m
+2024-01-24 12:49:14:4914 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "{ id: { id: '65b121bce5fa058e376dd43e' } }" (type Object) at path "_id" for model "Movie"[39m
+2024-01-24 12:58:45:5845 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "{ id: { id: '65b121bce5fa058e376dd43e' } }" (type Object) at path "_id" for model "Movie"[39m
+2024-01-24 12:59:47:5947 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "{ id: { id: '65b121bce5fa058e376dd43e' } }" (type Object) at path "_id" for model "Movie"[39m
+2024-01-24 13:52:41:5241 - [31merror[39m: [31mSystem error: Cast to ObjectId failed for value "asdasd" (type string) at path "_id" for model "Movie"[39m
